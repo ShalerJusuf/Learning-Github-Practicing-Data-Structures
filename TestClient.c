@@ -75,6 +75,7 @@ int main(int argc, char *argv[]) {
     by returing from search_list list->value(would it still return NULL properly?)
     but I dont think its likely in real programs to have a 1 value linked list.
     */
+    delete_from_list(first, 13);
 
     /*end of linked list*/
 
